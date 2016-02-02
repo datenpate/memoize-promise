@@ -1,15 +1,16 @@
 {
   "name": "memoize-promise",
   "version": "1.0.0",
+  "author": "Christian Jellinghaus <chscde@gmail.com>",
+  "license": "MIT",
   "description": "Memoize a promise result",
+  "repository": "https://github.com/datenpate/memoize-promise",
   "main": "index.js",
   "scripts": {
     "test": "mocha --require babel-core/register test",
     "watch": "babel src/memoize.js -o index.js --source-maps --watch",
     "build": "babel src/memoize.js -o index.js"
   },
-  "author": "Christian Jellinghaus <chscde@gmail.com>",
-  "license": "MIT",
   "dependencies": {
     "memory-cache": "^0.1.4"
   },
