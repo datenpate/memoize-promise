@@ -1,6 +1,10 @@
 A simple cached memoize for promises.
 
 ### Usage
+```
+npm install memoize-promise-value
+```
+
 ```javascript
 const memoize = require('memoize-promise-value')
 
