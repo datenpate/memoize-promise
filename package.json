@@ -1,5 +1,5 @@
 {
-  "name": "promise-memoize",
+  "name": "memoize-promise",
   "version": "1.0.0",
   "description": "Memoize a promise result",
   "main": "index.js",
