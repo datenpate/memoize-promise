@@ -1,7 +1,7 @@
 A simple cached memoize for promises.
 
 ### Usage
-```
+```javascript
 const memoize = require('promise-memoize')
 
 const generatorPromise = () => {
@@ -16,7 +16,7 @@ memoize('myKey', generatorPromise, 'optionalKeyPrefix_').then((value) => {
 ```
 
 ### Development
-```
+```bash
 npm run watch
 # or
 npm run build
