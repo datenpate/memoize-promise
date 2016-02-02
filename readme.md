@@ -2,7 +2,7 @@ A simple cached memoize for promises.
 
 ### Usage
 ```javascript
-const memoize = require('promise-memoize')
+const memoize = require('memoize-promise')
 
 const generatorPromise = () => {
   return new Promise((resolve) => {
